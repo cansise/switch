@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex-1 {
+    display: flex;
+}
+
+
+.flex-evenely {
+    justify-content: space-evenly;
+}
+
+.center {
+    justify-content: center;
+}
+
+.aling-vertical {
+    align-items: center;
+}
+
+.flex-aroud {
+    justify-content: space-around;
+}
+
+.margin-40{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.img-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+
+/*/TYPO/*/
+
+h1 {
+    font-size: 251px;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 42px;
+    font-family: "museo-sans-display", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "museo-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*/HEADER/*/
+
+header {
+    background-color: #E60012;
+    color: white;
+}
+
+.logo-nintendo {
+    width: 286px;
+    height: 95px;
+}
+
+.img-etoile {
+    width: 37px;
+    height: 36px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/*/Section-2/*/
+
+.img-logo-mario{
+    width: 410px;
+    height: 256px;
+}
+
+.img-nuage-tuyau {
+    width: 394px;
+    height: 411px;
+}
+
+.img-bonus-chat {
+    width: 378px;
+    height: 374px;
+    flex-shrink: 0;
+}
+
+.texte-bonus-chat {
+    width: 728px;
+}
+
+.img-dapeau-mario {
+    width: 248px;
+    height: 478.206px;
+}
+
+.img-piece{
+    width: 104px;
+    height: 104px;
+}
+
+/*/piece/*/
+.image-container {
+    position: relative;
+  }
+
+  .image-container {
+    max-width: 100%;
+    height: auto;
+    transition: opacity 0s; /* Ajoute une transition douce pour l'effet de disparition */
+  }
+
+  .image-container:hover img {
+    opacity: 0; /* Lorsque vous survolez l'élément, l'opacité de l'image devient 0, la rendant invisible */
+  }
+
+/*/Section-3/*/
+
+.img-switch{
+    width: 401px;
+    height: 397px;
+    margin-right: 40px;
+}
+
+.bouton {
+    color: white;
+    width: 191px;
+    height: 41px;
+    border-radius: 20.5px;
+    background: #E60012;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.card-switch {
+    border-radius: 37px;
+    background: #F6F5F5;
+    padding: 40px;
+}
+
+.backgroug-img {
+    background: url(/IMG/FOND.png);
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+
+/*/Footer/*/
+
+.footer {
+    width: 100%;
+}
+
+
+/*/Mobile/*/
+@media screen and (max-width: 800px) {
+
+    .header{
+        display: none;
+    }
+
+    .header-3 {
+        height: 30%;
+    }
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .texte-header {
+        display: none;
+    }
+
+    .logo-nintendo{
+        width: 199px;
+        height: 66px;
+    }
+    
+    .img-piece{
+        display: none;
+    }
+
+    .img-nuage-tuyau{
+        display: none;
+    }
+
+    .texte-bonus-chat {
+        width: 100%;
+
+    }
+
+    .img-dapeau-mario{
+        display: none;
+    }
+}
